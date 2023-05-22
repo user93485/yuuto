@@ -1,0 +1,417 @@
+#hola{
+    width: 100vw;
+    height: 100vh;
+    background-color: #252328;
+    position: fixed;
+    z-index: 999;
+}
+#preloader {
+	position:relative;
+    width: 80px;
+    height: 80px;
+    top: 45%;
+    margin: 0 auto;
+}
+#preloader span {
+	position:absolute;
+	border: 8px solid #ffe066;
+	border-top: 8px solid transparent;
+	border-radius:999px;
+}
+
+#preloader span:nth-child(1){
+	width:80px;
+	height:80px;
+	animation: spin-1 2s infinite linear;
+}
+#preloader span:nth-child(2){
+	top: 20px;
+	left: 20px;
+	width:40px;
+	height:40px;
+	animation: spin-2 1s infinite linear;
+}
+@keyframes spin-1 {
+	0% {transform: rotate(360deg); opacity: 1;}
+	50% {transform: rotate(180deg); opacity: 0.5;}
+	100% {transform: rotate(0deg); opacity: 1;}
+}
+@keyframes spin-2 {
+	0% {transform: rotate(0deg); opacity: 0.5;}
+	50% {transform: rotate(180deg); opacity: 1;}
+	100% {transform: rotate(360deg); opacity: 0.5;}
+}
+
+
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 936px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  background-image: none;
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: 37px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: 95px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 65px auto 0;
+}
+
+.u-section-1 .u-text-4 {
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: 6px auto 0 492px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  transition-duration: 0.5s;
+  padding: 0;
+}
+
+.u-section-1 .u-text-5 {
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: 97px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 35px auto 0;
+}
+
+.u-section-1 .u-text-7 {
+  transition-duration: 0.5s;
+  margin: 122px auto 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  min-height: 86px;
+  transition-duration: 0.5s;
+  width: 416px;
+  margin: 35px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-2 {
+    font-weight: normal;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 406px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-4 {
+    margin-left: 311px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1026px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-top: -29px;
+    margin-left: 65px;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-top: 132px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-top: 103px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
+}
+
+.u-section-1 .u-text-1 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-text-1:hover {
+  text-shadow: 0 0 11px rgba(128,128,128,1) !important;
+}
+
+.u-section-1 .u-text-2 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-text-2:hover {
+  text-shadow: 0 0 11px rgba(128,128,128,1) !important;
+}
+
+.u-section-1 .u-btn-1 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-btn-1:hover {
+  transform: scale(1.5) !important;
+}
+
+.u-section-1 .u-text-4 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-text-4:hover {
+  transform: scale(1.5) !important;
+}
+
+.u-section-1 .u-text-5 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-text-5:hover {
+  text-shadow: 0 0 11px rgba(128,128,128,1) !important;
+}
+
+.u-section-1 .u-text-7 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-text-7:hover {
+  text-shadow: 0 0 11px rgba(128,128,128,1) !important;
+}
+
+.u-section-1 .u-custom-html-1 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-1 .u-custom-html-1:hover {
+  box-shadow: 0 0 8px 5px rgba(128,128,128,1) !important;
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 721px;
+}
+
+.u-section-2 .u-text-1 {
+  animation-duration: 1000ms;
+  margin: 59px auto 0;
+}
+
+.u-section-2 .u-image-1 {
+  width: 410px;
+  height: 204px;
+  transition-duration: 0.5s;
+  margin: 46px 59px 0 auto;
+}
+
+.u-section-2 .u-image-2 {
+  width: 410px;
+  height: 204px;
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: -204px auto 0 46px;
+}
+
+.u-section-2 .u-image-3 {
+  width: 410px;
+  height: 203px;
+  transition-duration: 0.5s;
+  animation-duration: 1000ms;
+  margin: 37px 59px 0 auto;
+}
+
+.u-section-2 .u-image-4 {
+  width: 410px;
+  height: 203px;
+  transition-duration: 0.5s;
+  margin: -203px auto 0 46px;
+}
+
+.u-section-2 .u-text-2 {
+  animation-duration: 1000ms;
+  margin: 87px auto 8px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 717px;
+  }
+
+  .u-section-2 .u-text-1 {
+    transition-duration: 0.5s;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-right: 60px;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-top: 36px;
+    margin-right: 60px;
+  }
+
+  .u-section-2 .u-image-4 {
+    height: 204px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    margin-top: 91px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1164px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 24px;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: 38px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-top: 38px;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-image-4 {
+    margin-top: 38px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-image-2 {
+    margin-top: 20px;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-top: 31px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1024px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 169px;
+    margin-top: 244px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-image-2 {
+    height: 169px;
+    margin-top: -375px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 168px;
+    margin-top: 247px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-image-4 {
+    height: 169px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 78px;
+  }
+}
+
+.u-section-2 .u-image-2 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-2 .u-image-2:hover {
+  transform: scale(1.2) !important;
+}
+
+.u-section-2 .u-image-4 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-2 .u-image-4:hover {
+  transform: scale(1.2) !important;
+}
+
+.u-section-2 .u-image-1 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-2 .u-image-1:hover {
+  transform: scale(1.2) !important;
+}
+
+.u-section-2 .u-image-3 {
+  transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+.u-section-2 .u-image-3:hover {
+  transform: scale(1.2) !important;
+}
+
+::-webkit-Scrollbar{
+  width: 5px; 
+  background: rgba(5,5,5,1);
+  }
+  ::-webkit-Scrollbar-thumb{
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  }
