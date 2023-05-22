@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+:root {
+    --width: 90vw;
+    --height: 60vh;
+
+    --initial-cell-color: #39CCCC;
+    --hover-cell-color: #7FDBFF;
+
+    --main-bg-color: #001f3f;
+    --main-color: #0074D9;
+
+    --player-a-color: white;
+    --player-b-color: black;
+}
+
+body {
+    padding-top: 2.8vh;
+    background: var(--main-bg-color);
+}
+
+#title {
+    font-size: 8vh;
+    line-height: 5vh;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: var(--main-color);
+    padding: 0;
+}
+
+.game-board {
+    padding: 0;
+    margin: auto;
+    width: var(--height);
+    max-width: var(--width);
+    height: var(--height);
+    max-height: var(--width);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vh;
+}
+
+.game-cell {
+    background: var(--initial-cell-color);
+    border: 1px solid var(--main-color);
+}
+
+.game-cell:hover {
+    background: var(--hover-cell-color);
+    box-shadow: 0 0 40px var(--main-color);
+    border: none;
+}
+
+#game-over {
+    visibility: hidden;
+    color: var(--main-color);
+	text-shadow: 2px 2px black;
+    margin-top: 5vh;
+    font-size: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#smaller {
+    margin-top: 10px;
+    text-shadow: 2px 2px black;
+    font-size: 0.7em;
+}
+
+#start-btn {
+    border: 1px solid white;
+    padding: 1px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#start-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: none;
+    text-shadow: 1px 1px var(--main-bg-color);
+}

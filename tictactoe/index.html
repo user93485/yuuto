@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A TicTacToe web-application along with an implementation of minimax AI">
+    <title> Tic Tac Toe </title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="shortcut icon" href="public/img/favicon.ico" />
+</head>
+<body onload="initialize();">
+    <h1 id="title">Tic Tac Toe</h1>
+    <div class="game-board">
+        <div class="game-cell" data-row="0" data-col="0"></div>
+        <div class="game-cell" data-row="0" data-col="1"></div>
+        <div class="game-cell" data-row="0" data-col="2"></div>
+        <div class="game-cell" data-row="1" data-col="0"></div>
+        <div class="game-cell" data-row="1" data-col="1"></div>
+        <div class="game-cell" data-row="1" data-col="2"></div>
+        <div class="game-cell" data-row="2" data-col="0"></div>
+        <div class="game-cell" data-row="2" data-col="1"></div>
+        <div class="game-cell" data-row="2" data-col="2"></div>
+    </div>
+    <div id="game-over"></div>
+
+    <!-- Scripts -->
+    <script src="public/js/Cell.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/minimax.js"></script>
+</body>
+</html>
